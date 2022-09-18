@@ -25,7 +25,6 @@ export default class FormAddContact extends Component {
         this.resetForm();
     }
     resetForm = () => {
-        const { name, number } = this.state;
          this.setState({
             name: '',
             number: ''

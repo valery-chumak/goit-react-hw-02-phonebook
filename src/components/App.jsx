@@ -54,7 +54,7 @@ export default class App extends Component {
     })
   }
   isDuplicate({name}){
-    const { contacts,filter } = this.state;
+    const { contacts } = this.state;
     const result = contacts.find((item) => item.name === name);
     return result;
   }
